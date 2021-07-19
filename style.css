@@ -1,0 +1,11 @@
+#container {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+
+image {
+  width: 2000px;
+}
