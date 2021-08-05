@@ -1,6 +1,6 @@
 var i = 0;
 const TIME = 3000;
-let imgs = ["imgs/football1.jpg", "imgs/football2.jpg"];
+let imgs = [];
 
 const slideShow = function () {
   let current = (document.slider.src = imgs[i]);
@@ -12,5 +12,3 @@ const slideShow = function () {
 
   setTimeout("slideShow()", TIME);
 };
-
-window.onload = slideShow();
